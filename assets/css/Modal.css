@@ -1,0 +1,7 @@
+ /* Estilos personalizados para el modal */
+ @media (max-width: 576px) {
+    .modal-dialog {
+        max-height: 90vh; /* Limita la altura del modal al 90% de la altura de la pantalla */
+        overflow-y: auto; /* Hace que el contenido sea desplazable */
+    }
+}
